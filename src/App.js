@@ -13,7 +13,7 @@ import {
   ThemeProvider,
   createMuiTheme,
 } from '@material-ui/core/styles';
-import { pink, yellow } from '@material-ui/core/colors';
+import { blue, red } from '@material-ui/core/colors';
 import 'fontsource-roboto';
 
 import Typography from '@material-ui/core/Typography';
@@ -29,7 +29,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles({
   root: {
-    background: 'linear-gradient(45deg, lightblue, lightpink)',
+    background: 'linear-gradient(45deg, blue, lightblue)',
     border: 0,
     marginBottom: '15px',
     borderRadius: '15px',
@@ -47,10 +47,10 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: pink[300],
+      main: blue[200],
     },
     secondary: {
-      main: yellow[300],
+      main: blue[500],
     },
   },
 });
